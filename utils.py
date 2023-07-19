@@ -124,7 +124,9 @@ def plotImage(X,Y):
 
     plt.annotate('Laminar Flow\nf = 64/Re', (7.2*10**2,0.46),fontsize=13) 
 
-    plt.annotate('Transition Zone\n 2,300 <  Re < 4,000', (1.18* 10 ** 3, 0.33),fontsize=13)
+    plt.annotate('Transition Zone\n 2,300 <  Re < 4,000', 
+                (1.18* 10 ** 3, 0.33),
+                fontsize=13)
 
     ax.set_xlim(6*10**2,10**8)
     #ax.set_ylim(0,0.1)
